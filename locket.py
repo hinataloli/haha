@@ -12,7 +12,7 @@ import urllib3
 from queue import Queue
 from urllib.parse import urlparse, parse_qs, urlencode
 
-# Tắt cảnh báo SSL cho gọn log
+# Tắt cảnh báo SSL cho gọn logaaaaa
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 class zLocketMinimal:
