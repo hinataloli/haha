@@ -6,7 +6,7 @@
 # ==================================
 import sys
 import platform
-if platform.python_version() < "3.12":
+if platform.python_version() < "3.11":
     print(f"\033[91m[!] Phiên bản python của bạn không được hỗ trợ")
     print(f"\033[93m[!] Hiện tại: Python {platform.python_version()}")
     print(f"\033[92m[+] Yêu cầu: Python 3.12 trở lên")
